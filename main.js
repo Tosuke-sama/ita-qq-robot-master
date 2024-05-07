@@ -46,13 +46,13 @@ function inputAccount() {
         process.title = "OICQ/OneBot - " + account;
         return require("./lib/core")(account);
     }
-    account = parseInt(1848228664);
+    // account = parseInt(1848228664);
     inputAccount();
-    // console.log("请输入账号：");
-    // process.stdin.once("data", (input)=>{
-    //     account = parseInt(input.toString().trim());
-    //     inputAccount();
-    // });
+    console.log("请输入账号：");
+    process.stdin.once("data", (input)=>{
+        account = parseInt(input.toString().trim());
+        inputAccount();
+    });
 }
 
 
