@@ -1,0 +1,29 @@
+{
+  "name": "node-onebot",
+  "version": "1.3.0",
+  "description": "onebot",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takayama-lily/onebot.git"
+  },
+  "author": "takayama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/takayama-lily/onebot/issues"
+  },
+  "homepage": "https://github.com/takayama-lily/onebot#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "microsoft-cognitiveservices-speech-sdk": "^1.22.0",
+    "nodemon": "^2.0.16",
+    "oicq": "^1.18.1",
+    "ws": "^7.5.3"
+  },
+  "devDependencies": {
+    "request": "^2.88.2"
+  }
+}

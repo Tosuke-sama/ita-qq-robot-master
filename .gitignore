@@ -1,0 +1,9 @@
+node_modules
+.vscode
+data
+.idea
+package-lock.json
+Dockerfile
+docker-compose.yaml
+img/
+service/chat/config.js
